@@ -1,0 +1,60 @@
+name: 💡 Feature Request
+description: Suggest a new tool, guide, or improvement for AlphaCPSTest.com
+title: "[Feature]: "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for the suggestion! Ideas drive the roadmap.
+        Tip: check [ROADMAP.md](../../blob/main/ROADMAP.md) first — it might already be planned.
+  - type: dropdown
+    id: type
+    attributes:
+      label: Feature Type
+      options:
+        - New Tool
+        - New Guide / Article
+        - Tool Enhancement
+        - Platform Improvement
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: summary
+    attributes:
+      label: Summary
+      description: A clear, concise description of what you'd like.
+    validations:
+      required: true
+  - type: textarea
+    id: usecase
+    attributes:
+      label: Problem / Use Case
+      description: What problem does this solve, or what would it let you do?
+    validations:
+      required: true
+  - type: textarea
+    id: solution
+    attributes:
+      label: Proposed Solution
+      description: How do you imagine it working?
+    validations:
+      required: false
+  - type: textarea
+    id: references
+    attributes:
+      label: Examples or References
+      description: Links to similar features, or sketches/screenshots of the idea.
+    validations:
+      required: false
+  - type: dropdown
+    id: priority
+    attributes:
+      label: Priority (your opinion)
+      options:
+        - Nice-to-have
+        - Would use often
+        - Important to me
+    validations:
+      required: false

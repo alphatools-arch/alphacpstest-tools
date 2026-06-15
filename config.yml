@@ -1,0 +1,11 @@
+blank_issues_enabled: true
+contact_links:
+  - name: 🌐 AlphaCPSTest.com Website
+    url: https://alphacpstest.com
+    about: Visit the live website to use the tools.
+  - name: 📬 Contact / General Feedback
+    url: https://alphacpstest.com/contact
+    about: For general questions or private feedback, use the website contact page.
+  - name: 📚 Browse Guides
+    url: https://alphacpstest.com/articles
+    about: Read our in-depth guides and articles.
